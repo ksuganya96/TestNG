@@ -1,29 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-23T18:05:13Z" name="Default suite" finished-at="2025-07-23T18:05:13Z" duration-ms="57">
+  <suite started-at="2025-07-24T08:35:52Z" name="Default suite" finished-at="2025-07-24T08:35:52Z" duration-ms="69">
     <groups>
+      <group name="nishanth">
+        <method signature="group1.test1()[pri:0, instance:samptestng.group1@23941fb4]" name="test1" class="samptestng.group1"/>
+        <method signature="group1.test2()[pri:0, instance:samptestng.group1@23941fb4]" name="test2" class="samptestng.group1"/>
+      </group> <!-- nishanth -->
+      <group name="sugu">
+        <method signature="group1.test1()[pri:0, instance:samptestng.group1@23941fb4]" name="test1" class="samptestng.group1"/>
+      </group> <!-- sugu -->
     </groups>
-    <test started-at="2025-07-23T18:05:13Z" name="Default test" finished-at="2025-07-23T18:05:13Z" duration-ms="57">
-      <class name="samptestng.validation">
-        <test-method signature="Test1()[pri:0, instance:samptestng.validation@7486b455]" started-at="2025-07-23T18:05:13Z" name="Test1" finished-at="2025-07-23T18:05:13Z" duration-ms="16" status="PASS">
+    <test started-at="2025-07-24T08:35:52Z" name="Default test" finished-at="2025-07-24T08:35:52Z" duration-ms="69">
+      <class name="samptestng.group1">
+        <test-method signature="test1()[pri:0, instance:samptestng.group1@23941fb4]" started-at="2025-07-24T08:35:52Z" name="test1" finished-at="2025-07-24T08:35:52Z" duration-ms="19" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test1 -->
-        <test-method signature="Test2()[pri:0, instance:samptestng.validation@7486b455]" started-at="2025-07-23T18:05:13Z" name="Test2" finished-at="2025-07-23T18:05:13Z" duration-ms="2" status="PASS">
+        </test-method> <!-- test1 -->
+        <test-method signature="test2()[pri:0, instance:samptestng.group1@23941fb4]" started-at="2025-07-24T08:35:52Z" name="test2" finished-at="2025-07-24T08:35:52Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test2 -->
-        <test-method signature="Test3()[pri:0, instance:samptestng.validation@7486b455]" started-at="2025-07-23T18:05:13Z" name="Test3" finished-at="2025-07-23T18:05:13Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test3 -->
-        <test-method signature="Test4()[pri:0, instance:samptestng.validation@7486b455]" started-at="2025-07-23T18:05:13Z" name="Test4" finished-at="2025-07-23T18:05:13Z" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test4 -->
-      </class> <!-- samptestng.validation -->
+        </test-method> <!-- test2 -->
+      </class> <!-- samptestng.group1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
